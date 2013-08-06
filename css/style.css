@@ -1,0 +1,34 @@
+@import("normalize.css");
+html {
+	height:100%; width:100%;
+	}
+body {
+	width: 100%; height: 100%; margin: 0px; padding: 0px;
+	border:0px; font-family: Arial, sans-serif; background: #fff; font-size: 14px, line-height:10px;
+}
+#header {
+	height: 85px; margin:0px; padding:0px; text-align: left; background: #ff4800; 
+}
+table, tr, td {
+	border-collapse: collapse; vertical-align: top;line-height: 15px; font-size: 15px; height: 100%;  
+}
+#header h1 {
+	padding: 1em; margin: 0px; color: #fff;
+}
+#content {
+	margin:0px; padding-top: 0px; height: 100%;width: 100%; background: #eee1b9 ;
+}
+#footer {
+	height: 1em; margin: 0px; padding: 0px; text-align: center; color: white; background: #ff4800;
+}
+#nav {
+	width: 150px;  background: white; margin:0px; padding: 1em 2em; 
+}
+#nav a {color: blue; text-decoration: none;}
+ul.info {padding-left: 0; list-style: none;}
+ul.pages {padding-left: 2em; list-style: square;}
+#main {
+	padding-left: 4em; vertical-align: top; padding-top: 15px;
+}
+.selected {font-weight: bold;}
+#newadd {font-size: 0.7em; font-family: arial; }
